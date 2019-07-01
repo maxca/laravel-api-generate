@@ -1,6 +1,6 @@
 <?php
 
-namespace LumenApiGenerator\Provider;
+namespace Samark\ApiGenerate\Providers;
 
 use LumenApiGenerator\Command\GenerateFileCommand;
 use Illuminate\Support\ServiceProvider;
