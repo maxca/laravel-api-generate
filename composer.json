@@ -1,0 +1,44 @@
+{
+  "name": "samarkchaisangun/laravel-api-generator",
+  "description": "for generate contractors of file for easy api using.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "samark chaisangun",
+      "email": "samarkchsngn@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "mockery/mockery": "0.9.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-0": {
+      "Samark\\ApiGenerate\\": "src/"
+    },
+    "files": [
+      "constants.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Samark\\ApiGenerate\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Samark\\ApiGenerate\\Providers\\ApiGenerateServiceProvider"
+      ]
+    }
+  }
+}
