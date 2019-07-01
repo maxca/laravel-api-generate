@@ -27,7 +27,7 @@ class ApiGenerateServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/api-generate.php' => config_path('api-generate.php'),
-            __DIR__ . '/../generate/template'       => base_path('template/'),
+            __DIR__ . '/../generate/template'       => public_path('template/'),
         ], 'config');
 
         $this->commands($this->command);
