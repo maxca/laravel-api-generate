@@ -26,7 +26,7 @@
       "Samark\\ApiGenerate\\": "src/"
     },
     "files": [
-      "constants.php"
+      "constants.php","src\\helpers\\common.php"
     ]
   },
   "autoload-dev": {
