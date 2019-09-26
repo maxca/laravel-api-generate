@@ -1,5 +1,5 @@
 <?php
-namespace LumenApiGenerator\Command;
+namespace Samark\ApiGenerate\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
@@ -40,7 +40,6 @@ class GenerateFileCommand extends Command
     public function __construct()
     {
         parent::__construct();
-        Log::info('start process ' . get_class());
     }
 
     /**
