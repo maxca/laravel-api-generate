@@ -54,8 +54,5 @@ class GenerateFileCommand extends Command
         $this->generate->setTemplatePath('public/');
         $this->generate->setPath(base_path());
         $this->generate->execute();
-
-        #$this->generate->makeMigration();
-        dump('generate module ' . $namespace . ' success !');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Samark\ApiGenerate\Providers;
 
-use LumenApiGenerator\Command\GenerateFileCommand;
+use Samark\ApiGenerate\Command\GenerateFileCommand;
 use Illuminate\Support\ServiceProvider;
 
 /**
